@@ -16,8 +16,8 @@ public class Main {
         AnimalList.add(new Pies());
         AnimalList.add(new Losos());
         for (Animal one:AnimalList){
-            System.out.println(one.dajGlos());
-            System.out.println(one.iloscLap(0));
+            System.out.println("Animal:" +one.getClass().getSimpleName() +" ilość nóg:"+ one.iloscLap(0)+" wydająz siebie dzwięk:" +   one.dajGlos());
+           // System.out.println(one.iloscLap(0));
         }
 
     }
