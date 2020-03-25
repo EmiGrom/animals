@@ -5,7 +5,7 @@ public class Lew implements Animal, Glos, Lapy {
 
     @Override
     public String dajGlos() {
-        return "roaarr" ;
+        return "roaarr";
     }
 
     //@Override
@@ -35,11 +35,11 @@ public class Lew implements Animal, Glos, Lapy {
         this.iloscLap = iloscLap;
     }
 
-    public void setIlośćŁap(int iloscLap) {
+    public void setIloscLap(int iloscLap) {
         this.iloscLap = iloscLap;
     }
 
-    public int getIloscLap() {
+    public int getIlośćŁap() {
         return iloscLap;
     }
 }

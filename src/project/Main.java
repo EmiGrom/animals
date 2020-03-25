@@ -4,6 +4,7 @@ import project.Animal;
 import project.Kot;
 import project.Losos;
 import project.Pies;
+import project.Lew;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +39,7 @@ public class Main {
         słoń1.setIloscLap(8);
 
         Lew lew1 = new Lew();
-        lew1.setIloscLap();
+        lew1.setIloscLap(7);
 
         List<Animal> AnimalList2 = new ArrayList<>();
         AnimalList2.add(kot1);
