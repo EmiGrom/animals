@@ -32,13 +32,13 @@ public class Main {
         pies1.setIloscLap(8);
 
         Losos losos1 = new Losos();
-        pies1.setIloscLap(8);
+        losos1.setIloscLap(8);
 
         Słoń słoń1 = new Słoń();
-        pies1.setIloscLap(8);
+        słoń1.setIloscLap(8);
 
         Lew lew1 = new Lew();
-        pies1.setIloscLap(8);
+        lew1.setIloscLap();
 
         List<Animal> AnimalList2 = new ArrayList<>();
         AnimalList2.add(kot1);
