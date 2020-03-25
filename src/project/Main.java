@@ -1,4 +1,4 @@
-package projekt;
+package project;
 
 import project.Animal;
 import project.Kot;
