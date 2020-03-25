@@ -1,13 +1,13 @@
 package project;
 
-public class Kot implements Animal {
+public class Losos implements Animal {
     @Override
     public String dajGlos() {
-        return "miaaał: ";
+        return "Aaammm Aammm" ;
     }
 
     @Override
     public Integer iloscLap(int a) {
-        return a = 5;
+        return  a=0;
     }
 }

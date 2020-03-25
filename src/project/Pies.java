@@ -1,14 +1,13 @@
 package project;
 
-public class Pies implements Głos {
+public class Pies implements Animal {
+    @Override
+    public String dajGlos() {
+        return "hau hau: ";
+    }
 
     @Override
-    public String dajGłos(int a) {
-        StringBuilder dajGłos = new StringBuilder();
-        dajGłos.append("Pies: ");
-        for (int i = 0; i < a; i++) {
-            dajGłos.append(" Hau");
-        }
-        return dajGłos.toString();
+    public Integer iloscLap(int a) {
+        return a=5;
     }
 }
