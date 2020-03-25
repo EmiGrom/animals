@@ -14,9 +14,11 @@ public class Main {
         List<Animal> AnimalList = new ArrayList<>();
         AnimalList.add(new Kot());
         AnimalList.add(new Pies());
+        AnimalList.add(new Słoń());
         AnimalList.add(new Losos());
+        AnimalList.add(new Lew());
         for (Animal one:AnimalList){
-            System.out.println("Animal:" +one.getClass().getSimpleName() +" ilość nóg:"+ one.iloscLap(0)+" wydająz siebie dzwięk:" +   one.dajGlos());
+            System.out.println(" Animal: " +one.getClass().getSimpleName() +" ilość nóg: "+ one.iloscLap(0)+"  wydaje z siebie dzwięk: " +   one.dajGlos());
            // System.out.println(one.iloscLap(0));
         }
 

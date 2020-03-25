@@ -3,7 +3,7 @@ package project;
 public class Kot implements Animal {
     @Override
     public String dajGlos() {
-        return "miaaał: ";
+        return "miaaau ";
     }
 
     @Override

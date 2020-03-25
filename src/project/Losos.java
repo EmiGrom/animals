@@ -3,7 +3,7 @@ package project;
 public class Losos implements Animal {
     @Override
     public String dajGlos() {
-        return "Aaammm Aammm" ;
+        return "aaammm aammm" ;
     }
 
     @Override

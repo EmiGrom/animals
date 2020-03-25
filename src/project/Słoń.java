@@ -1,13 +1,13 @@
 package project;
 
-public class Pies implements Animal {
+public class Słoń implements Animal {
     @Override
     public String dajGlos() {
-        return "hau hau";
+        return "trutututut ";
     }
 
     @Override
     public Integer iloscLap(int a) {
-        return a=5;
+        return a = 4;
     }
 }
