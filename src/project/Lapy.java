@@ -1,5 +1,11 @@
 package project;
 
 public interface Lapy {
-    Integer iloscLap(int a);
+    String iloscLap();
+    //end
+
+    public void IloscLap();
+
+    public void setIloscLap();
 }
+

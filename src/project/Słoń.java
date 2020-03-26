@@ -1,16 +1,16 @@
 package project;
 
-public class Kot implements Animal, Glos, Lapy {
+public class Słoń implements Animal, Glos, Lapy {
     int iloscLap;
 
     @Override
     public String dajGlos() {
-        return "miaaau ";
+        return "trutututut ";
     }
 
     //@Override
     //    public Integer iloscLap(int a) {
-    //        return a = 5;
+    //        return a = 4;
     //    }
     //}
 
@@ -36,10 +36,10 @@ public class Kot implements Animal, Glos, Lapy {
     }
 
     public void setIloscLap(int iloscLap) {
-        this.iloscLap = iloscLap;
+        this.iloscLap =iloscLap;
     }
 
-    public int getIloscLap() {
+    public int getIlośćŁap() {
         return iloscLap;
     }
 }
