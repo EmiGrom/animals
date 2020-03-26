@@ -18,6 +18,8 @@ public class Main {
         AnimalList.add(new Słoń());
         AnimalList.add(new Losos());
         AnimalList.add(new Lew());
+
+        //fghkfgh
         for (Animal one : AnimalList) {
             System.out.println(" Animal: " + one.getClass().getSimpleName() + " ilość nóg: " + one.iloscLap() + " i wydaje z siebie dzwięk: " + one.dajGlos());
             // System.out.println(one.iloscLap(0));
